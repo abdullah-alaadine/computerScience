@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body{
+    background-image: url("./pngtree-light-blue-background-image_264178.jpg");
+    background-size: cover;
+}
+.hello{
+    text-align: center;
+    margin: 10px;
+    color: rgb(1, 13, 56);
+}
+.intro{
+    text-align: center;
+    color: rgb(57, 70, 116);
+    margin: 10px;
+}
+body>p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.parent{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    padding: 10px;
+}
+.children{
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    padding: 5px;
+}
+img{
+    display: block;
+    margin: auto;
+
+}
+#img1{
+    width: 80%;
+    height: 80%;
+}
+#img2{
+    width: 80%;
+    height: 80%;
+}
+#img3{
+    width: 120%;
+    height: 80%;
+}
+#img4{
+    width: 70%;
+    height: 80%;
+}
